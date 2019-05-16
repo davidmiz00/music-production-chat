@@ -45,9 +45,9 @@ const loginHTML = `<main class="login container">
 const chatHTML = `<main class="flex flex-column">
   <header class="title-bar flex flex-row flex-center">
     <div class="title-wrapper block center-element">
-      <img class="logo" src="http://feathersjs.com/img/feathers-logo-wide.png"
-        alt="Feathers Logo">
-      <span class="title">Chat</span>
+      <!-- <img class="logo" src="assets/music-chat.png"
+         alt="Music Production Logo"> --!>
+      <span class="title"><b>Music Production Chat Room</b></span>
     </div>
   </header>
 
