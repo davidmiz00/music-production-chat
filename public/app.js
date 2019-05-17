@@ -15,14 +15,14 @@ client.configure(feathers.authentication({
 const loginHTML = `<main class="login container">
   <div class="row">
     <div class="col-12 col-6-tablet push-3-tablet text-center heading">
-      <h1 class="font-100">Log in or signup</h1>
+      <h1 class="font-100">Log In or Signup</h1>
     </div>
   </div>
   <div class="row">
     <div class="col-12 col-6-tablet push-3-tablet col-4-desktop push-4-desktop">
       <form class="form">
         <fieldset>
-          <input class="block" type="email" name="email" placeholder="email">
+          <input class="block" type="email" name="email" placeholder="username">
         </fieldset>
 
         <fieldset>
@@ -30,11 +30,11 @@ const loginHTML = `<main class="login container">
         </fieldset>
 
         <button type="button" id="login" class="button button-primary block signup">
-          Log in
+          Log In
         </button>
 
         <button type="button" id="signup" class="button button-primary block signup">
-          Sign up and log in
+          Sign Up and Log In
         </button>
       </form>
     </div>
